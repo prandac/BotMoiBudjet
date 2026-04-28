@@ -1,1 +1,1 @@
-worker: python bot — копия.py
+worker: python bot.py
