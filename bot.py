@@ -7,8 +7,8 @@ from telegram.ext import (
     MessageHandler, filters, ContextTypes, ConversationHandler
 )
 
-# ── ВСТАВЬ ТОКЕН СЮДА ───────────────────────────────
-TOKEN = "8783410068:AAHfHoEvZiSURBdKeltzq_1VXmi7S7TmFg4"
+import os
+TOKEN = os.getenv("TOKEN")
 # ────────────────────────────────────────────────────
 
 logging.basicConfig(level=logging.WARNING)
